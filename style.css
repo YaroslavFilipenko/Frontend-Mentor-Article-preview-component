@@ -103,7 +103,7 @@ body {
     margin-top: 5px;
 }
 
-.about-user__share-button {
+.share-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,12 +114,12 @@ body {
     transition: .5s ease;
 }
 
-.about-user__share-button:hover,
+.share-button:hover,
 .share-button-active {
     background: var(--Desaturated-Dark-Blue);
 }
 
-.about-user__share-button:hover svg path,
+.share-button:hover svg path,
 .share-button-active svg path {
     fill: #fff;
 }
@@ -127,8 +127,6 @@ body {
 .share-popup {
     display: none;
 }
-
-
 
 .share-popup-active {
     display: flex;
@@ -196,7 +194,7 @@ body {
         padding: 1.562rem 0 2.187rem 0;
     }
 
-    .about-user__share-button {
+    .share-button {
         position: absolute;
         z-index: 99;
         right: 30px;
